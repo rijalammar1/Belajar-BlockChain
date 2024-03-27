@@ -1,0 +1,118 @@
+{
+  "contractName": "TransactionDetailContract",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.21+commit.d9974bed\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/TransactionDetailContract.sol\":\"TransactionDetailContract\"},\"evmVersion\":\"shanghai\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/TransactionDetailContract.sol\":{\"keccak256\":\"0x62d9c85445517812a9087bbf734c64927eba8799b368c196419db9a06eb0e15a\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://59247cfe8e09013bfdc7018fe6eecd1218d7584da7e0905d920aae7cf3bdf6d8\",\"dweb:/ipfs/QmUT4MD7jJ2KsNva5cRqGkEQZNjoT9PQJ9ATWxex85faCB\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600e575f80fd5b50603e80601a5f395ff3fe60806040525f80fdfea26469706673582212205f55681e9ab0344c3094fe70c7f1e1b17339827ae9176eaf21010f864fd16eb864736f6c63430008150033",
+  "deployedBytecode": "0x60806040525f80fdfea26469706673582212205f55681e9ab0344c3094fe70c7f1e1b17339827ae9176eaf21010f864fd16eb864736f6c63430008150033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "66:67:1:-:0;;;105:26;;;;;;;;;;66:67;;;;;;",
+  "deployedSourceMap": "66:67:1:-:0;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity >=0.4.22 <0.9.0;\n\ncontract TransactionDetailContract {\n  constructor() public {\n  }\n}\n",
+  "sourcePath": "D:\\test-blockchain\\contracts\\TransactionDetailContract.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/TransactionDetailContract.sol",
+    "exportedSymbols": {
+      "TransactionDetailContract": [
+        441
+      ]
+    },
+    "id": 442,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 436,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:32:1"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "TransactionDetailContract",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 441,
+        "linearizedBaseContracts": [
+          441
+        ],
+        "name": "TransactionDetailContract",
+        "nameLocation": "75:25:1",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 439,
+              "nodeType": "Block",
+              "src": "126:5:1",
+              "statements": []
+            },
+            "id": 440,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nameLocation": "-1:-1:-1",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 437,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "116:2:1"
+            },
+            "returnParameters": {
+              "id": 438,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "126:0:1"
+            },
+            "scope": 441,
+            "src": "105:26:1",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "scope": 442,
+        "src": "66:67:1",
+        "usedErrors": [],
+        "usedEvents": []
+      }
+    ],
+    "src": "32:102:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.21+commit.d9974bed.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.16",
+  "updatedAt": "2024-03-27T04:57:37.009Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
